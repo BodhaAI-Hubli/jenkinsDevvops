@@ -1,4 +1,4 @@
-from student import student_details
+from student_details import student_details
 def test_student_details():
     s = student_details("Anu", "1XX23CS001", "ABC College", "Hubballi", "anu@example.com")
     assert s["name"] == "Anu"
