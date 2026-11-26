@@ -2,7 +2,7 @@ def student_details(name, USN, college, city, email=None):
     return {
         "name": name,
         "USN" : USN,
-        "college" : college,
+        "College" : college,
         "city" : city,
         "email" : email
 
